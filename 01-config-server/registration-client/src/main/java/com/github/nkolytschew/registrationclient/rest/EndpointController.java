@@ -22,7 +22,7 @@ public class EndpointController {
 
     @GetMapping("find-regs")
     public Map<String, String> getRegistrations() {
-        this.exchangeService.getRegistrations();
+        return this.exchangeService.getRegistrations();
     }
 
     // do more
